@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'RB';
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header__nav-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    width: 100%;
+
+}
+
+.header__nav-link-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.header__nav-logotype {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+
+    text-align: center;
+
+}
+
+.header__nav-link-logo {
+    color: #000;
+    font-size: 18px;
+
+}
+
+.header__nav-link-text {
+    color: #3A3838;
+    font-size: 18px;
+    transition: all 200ms;
+}
+
+.header__nav-link-text:hover {
+    color: #EF4423;
+
+}
+
+.header__content {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 1110px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main__content-top {
+    display: flex;
+    margin-top: 36px;
+}
+
+.main__content-item {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.main__bottom-img {
+    max-width: 555px;
+    width: 100%;
+}
+.item-1 {
+    background: #B71C1C;
+    padding-bottom: 15px;
+}
+.item-2  {
+    background: #6A1B9A;
+    flex-direction: column-reverse;
+    padding-top: 15px;
+}
+.item-3 {
+    background: #303F9F;
+    padding-bottom: 15px;
+}
+.item-4 {
+    background: #00695C;
+    flex-direction: column-reverse;
+    padding-top: 15px;
+}
+
+
+
+.main__content-style {
+    color: #FFF;
+    font-size: 19px;
+
+}
+
+.main__content-text {
+    color: #EBEBEB;
+    font-family: 'RR';
+    font-size: 16px;
+}
+
+.main__content-top-text {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 15px;
+}
+
+
+.main__content-img {
+    width: 100%;
+    max-height: 175px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.main__bottom-style {
+    color: #3A3838;
+    font-size: 22px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+.main__bottom-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.main__bottom-bg {
+    background: #EDEDED;
+}
+
+.main__bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.main__bottom-text-style {
+    color: #3A3838;
+    font-size: 22px;
+}
+
+.main__bottom-text-content {
+    color: #686868;
+    font-family: 'RR';
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+.footer {
+    background: #3A3838;
+    margin-top: 50px;
+}
+
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+.footer__link-text {
+    color: #FFF;
+    font-size: 18px;
+    transition: all 200ms;
+}
+
+.footer__link-text:hover {
+    color: #EF4423;
+} 
+
+.footer__link-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__link-logo {
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 1140px) {
+
+    .footer-box {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .main__bottom-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main__content-top {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .main__content-item {
+        max-width: 400px;
+        width: 100%;
+    
+    }
+    .item-2 {
+        border-bottom: 2px solid yellow;
+    }
+    .main__bottom-text {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .header__nav-logo {
+        max-width: 1140px;
+        width: 100%;
+        flex-direction: column;
+        gap: 25px;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+    .footer-box {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+}
